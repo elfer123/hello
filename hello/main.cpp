@@ -12,7 +12,7 @@ int main()
     double c=x/y;
     cout<<"el resultado de la suma es :"<<z<<endl;
     cout<<"el resultado de la resta es :"<<a<<endl;
-    cout<<"el resultado de la multiplicacion es :"<<b<<endl;
+    cout<<"el resultado de la multiplicacion es :v :"<<b<<endl;
     cout<<"el resultado de la division es :"<<c<<endl;
     return 0;
 
