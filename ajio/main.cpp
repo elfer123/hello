@@ -12,10 +12,10 @@ int main()
     cout<<"ingresa tu edad :"<<endl;
     cin>>edad;
     if(edad>0 and edad<18){
-        cout<<"tienes :"<<edad<<" años y eres menor de edad"<<endl;
+        cout<<"tienes :"<<edad<<" aÃ±os y eres menor de edad"<<endl;
     }else{
 
-        cout<<"tienes :"<<edad<<" años y eres mayor de edad"<<endl;
+        cout<<"tienes :"<<edad<<" aÃ±os y eres mayor de edad"<<endl;
     }
     //Ejercicio2
 
@@ -54,36 +54,17 @@ int main()
 }
     //Ejercicio 4
     cout<<"ejercicio 4 :"<<endl;
-    int d,e;
-    cout<<"Ingrese el primer numero: "<<endl;
-    cin>>d;
-    cout<<"Ingrese el segundo numero: "<<endl;
-    cin>>e;
+    int a;
+    int b;
 
-    if(d%2==0){
-        cout<<d<<" Es multiplo de 2"<<endl;
-    }
-    else{
-        cout<<d<<" No es multiplo de 2"<<endl;
-    }
-    if(e%2==0){
-        cout<<e<<" Es multiplo de 2"<<endl;
-    }
-    else{
-        cout<<e<<" No es multiplo de 2"<<endl;
-    }
-    if(d%e==0){
-        cout<<d<<" Es multiplo de "<<e<<endl;
-    }
-    else{
-        cout<<d<<" no es multiplo de "<<e<<endl;
-    }
-    if(d*d==e){
-        cout<<d<<" al cuadrado tiene como resultado a "<<e<<endl;
-    }
-    else{
-        cout<<d<<" al cuadrado no tiene como resultado a "<<e<<endl;
-    }
+    cout<<"ingresa a :"<<endl,
+    cin>>a;
+    cout<<"ingresa b :"<<endl;
+    cin>>b;
+    !(a%2)?cout<<a<<" es multiplo de 2 y ":cout<<a<<" no es multiplo de 2 "<<endl;
+    !(b%2)?cout<<b<<" es multiplo de 2  ":cout<<b<<" no es multiplo de 2"<<endl;
+    (a*a==b)?cout<<"el cuadrado de :"<<a<<"es "<<b:cout<<"el cuadrado de "<<a<<"no es "<<b;
+    return 0;
 //Ejercicio5
     cout<<"ejericio 5 :"<<endl;
     int p=0,q,r;
@@ -134,7 +115,7 @@ int main()
     cout<<"ejercicio 8"<<endl;
     //ejericio 9
  int year,p,q,r;
-    cout<<"ingresa el año"<<endl;
+    cout<<"ingresa el aÃ±o"<<endl;
     cin>>year;
     p=year%4;
     q=year%100;
