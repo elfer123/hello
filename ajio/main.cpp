@@ -139,3 +139,53 @@ int main()
 
     return 0;
 }
+
+
+con funciones xd 
+#include <iostream>
+#include <string>
+using namespace std;
+void num(int);
+void numeros(int,int,int);
+void edad(int);
+void numero(int,int);
+int main()
+{
+    numero(10,45);
+    /*edad(250);
+
+    numeros(3,4,5);
+    num(3);*/
+}
+
+void edad(int edad){
+
+    if(edad>0 and edad<18){
+        cout<<"tienes :"<<edad<<" años y eres menor de edad"<<endl;}
+    if(edad>18 and edad<105){
+        cout<<"tienes :"<<edad<<" años y eres mayor de edad"<<endl;
+    }else{
+        cout<<"alien pendejo"<<endl;
+                                    }}
+void numero(int a,int b){
+    !(a%2)?cout<<a<<" es multiplo de 2 y ":cout<<a<<" no es multiplo de 2 "<<endl;
+    !(b%2)?cout<<b<<" es multiplo de 2  ":cout<<b<<" no es multiplo de 2"<<endl;
+    (a*a==b)?cout<<"el cuadrado de :"<<a<<"es "<<b:cout<<"el cuadrado de "<<a<<"no es "<<b;
+}
+void numeros(int n1,int n2,int n3   ){
+    int prom;
+    int mayor;
+    int menor;
+    mayor=(n1>n2)?n1:n2 and (n2>n3)? n2:n3;
+    menor=(n1<n2)?n1:n2 and (n2<n3)? n2:n3;
+    cout<<"el mayor es :" <<mayor<<endl;
+    cout<<"el menor es :" <<menor<<endl;
+    prom=(n1+n2+n3)/3;
+    cout<<"el promedio es :"<<prom<<endl;
+}
+void num(int x){
+    for(int c=0;c<x;c++){
+        cout<<c<<",";
+    }
+    cout<<x<<endl;
+}
