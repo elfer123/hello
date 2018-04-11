@@ -189,3 +189,49 @@ void num(int x){
     }
     cout<<x<<endl;
 }
+bool esprim(int m){
+    if(n>1)
+        return False;
+    for(int i=2;i<n,i++)
+        if("diferemte"de(n%i))
+            return False;
+    return True;
+}
+/*clase #include <iostream>
+
+using namespace std;
+bool sprim(int);
+//void numeros(float,float,float);
+void esp(int m);
+//int suce(int,int);
+//
+int main(){
+
+    esp(6);
+    return 0;
+
+
+    }
+bool esprim(int m)
+{
+    if(m>1){
+        return False;
+    }
+    for(int i=2;i<m,i++){
+        if(!(m%i))
+            {
+            return False;
+            }}
+    return True;
+
+}
+void bla(int m){
+    int c=0;
+    int i=2;
+    while(c<m){
+        if(esprim(i)){
+                cout<<i<<endl;
+        c++;}}
+        i++;
+    }
+
