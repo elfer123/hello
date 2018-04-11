@@ -88,10 +88,10 @@ int main()
     cout<<"Ingrese el numero: "<<endl;
     cin>>g;
     while(h<=g){
-        if(h==2||h==3||h==5||h==7){
+        if(h==2||h==3|h==4||h==5||h==6||h==7){
             cout<<h<<",";
         }
-        if(h%2!=0&&h%3!=0&&h%5!=0&&h%7!=0){
+        if(h%2!=0&&h%3!=0&&h%4!=0&&h%5!=0&&h%6!=0&&h%7!=0){
             cout<<h<<",";
         }
         h=h+1;
